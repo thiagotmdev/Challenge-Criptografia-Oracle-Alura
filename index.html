@@ -5,23 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Encrypter</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <img src="" alt="Logo do site">
+        <div class="logo">
+            <img src="" alt="Logo do site">
+        </div>
         <h1>Word Encrypter</h1>
     </header>
     <main>
         <section class="container">
             <div class="area_texto_normal">
-                <textarea name="texto_a_encriptar" id="" cols="30" rows="10"></textarea>
-                Apenas letras minúsculas e sem acento.
+                <textarea name="texto_a_encriptar" id="" cols="30" rows="15"></textarea>
+                <p class="info">Apenas letras minúsculas e sem acento.</p>
+               <div class="botoes">
                 <button class="btn_cript">Criptografar</button>
                 <button class="btn_decript">Descriptografar</button>
+               </div>
             </div>
             <div class="area_texto_encripitado">
-                <textarea name="texto_encriptado" id="" cols="30" rows="10">
+                <textarea name="texto_encriptado" id="" cols="30" rows="20">
                 </textarea>
                 <div class="img_encript"><img src="" alt="imagem"></div>
                 <button class="btn_cop">Copiar</button>
