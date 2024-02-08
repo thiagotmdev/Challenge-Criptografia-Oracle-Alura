@@ -18,11 +18,11 @@ function encriptar() {
         let palavrasParaAlterar = lista.map(palavra => {
 
             return palavra
-                .replace(/e/, 'enter')
-                .replace(/i/, 'imes')
-                .replace(/a/, 'ai')
-                .replace(/o/, 'ober')
-                .replace(/u/, 'ufat');
+                .replace(/e/g, 'enter')
+                .replace(/i/g, 'imes')
+                .replace(/a/g, 'ai')
+                .replace(/o/g, 'ober')
+                .replace(/u/g, 'ufat');
         });
 
         let img = document.getElementById('img_cadeado');
