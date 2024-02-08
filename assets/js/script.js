@@ -1,6 +1,6 @@
 function encriptar() {
     let frase = document.getElementById('encriptar').value;
-    regex = /^[a-z\s]+$/i;
+    regex = /^[a-z\s]+$/;
 
     if(!frase){
         alert("Por Favor digite sua frase");

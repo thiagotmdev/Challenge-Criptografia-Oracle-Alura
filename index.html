@@ -11,14 +11,14 @@
 <body>
     <header>
         <div class="logo">
-            <img src="" alt="Logo do site">
+            <img src="./assets/images/logo.png" alt="Logo do site" class="logo">
         </div>
-        <h1>Word Encrypter</h1>
+        <h1 class="titulo">Word Encrypter</h1>
     </header>
     <main>
         <section class="container">
             <div class="area_texto_normal">
-                <textarea pattern="[a-z]+" name="texto_a_encriptar" id="encriptar" cols="30" rows="20" class="text_area"
+                <textarea pattern="[a-z]+" name="texto_a_encriptar" id="encriptar" cols="20" rows="15" class="text_area"
                     placeholder="Digite aqui seu texto para encripitar ou desencripitar"></textarea>
                 <p class="info">Apenas letras minúsculas e sem acento.</p>
                 <div class="botoes">
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="area_texto_encripitado">
-                <textarea name="texto_encriptado" id="encriptado" cols="30" rows="20" class="text_area" pattern="[a-z]+">
+                <textarea name="texto_encriptado" id="encriptado" cols="30" rows="15" class="text_area" pattern="[a-z]+">
                 </textarea>
                 <img src="./assets/images/padlock.jpg" id="img_cadeado" alt="imagem" class="img_encript">
                 <button id="btn_copia" class="btn_cop">Copiar</button>
