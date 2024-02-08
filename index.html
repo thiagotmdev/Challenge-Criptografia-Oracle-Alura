@@ -18,23 +18,24 @@
     <main>
         <section class="container">
             <div class="area_texto_normal">
-                <textarea name="texto_a_encriptar" id="" cols="30" rows="20" class="text_area"
+                <textarea pattern="[a-z]+" name="texto_a_encriptar" id="encriptar" cols="30" rows="20" class="text_area"
                     placeholder="Digite aqui seu texto para encripitar ou desencripitar"></textarea>
                 <p class="info">Apenas letras minúsculas e sem acento.</p>
                 <div class="botoes">
-                    <button class="btn_cript">Criptografar</button>
-                    <button class="btn_decript">Descriptografar</button>
+                    <button class="btn_cript" onclick="encriptar()">Criptografar</button>
+                    <button class="btn_decript" onclick="descriptografar()">Descriptografar</button>
                 </div>
             </div>
             <div class="area_texto_encripitado">
-                <textarea name="texto_encriptado" id="" cols="30" rows="20" class="text_area">
+                <textarea name="texto_encriptado" id="encriptado" cols="30" rows="20" class="text_area" pattern="[a-z]+">
                 </textarea>
-                <img src="./assets/images/padlock.jpg" alt="imagem" class="img_encript">
-                <button class="btn_cop">Copiar</button>
+                <img src="./assets/images/padlock.jpg" id="img_cadeado" alt="imagem" class="img_encript">
+                <button id="btn_copia" class="btn_cop">Copiar</button>
             </div>
         </section>
     </main>
     <footer>Aqui é o footer</footer>
 </body>
 
+<script src="./assets/js/script.js"></script>
 </html>
