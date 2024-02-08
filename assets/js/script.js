@@ -2,12 +2,12 @@ function encriptar() {
     let frase = document.getElementById('encriptar').value;
     regex = /^[a-z\s]+$/;
 
-    if(!frase){
+    if (!frase) {
         alert("Por Favor digite sua frase");
         return false;
     }
-    
-    if(!regex.test(frase)){
+
+    if (!regex.test(frase)) {
         alert('Por favor, digite apenas letras minúsculas e sem acentos!');
         return false; // Impede o envio do formulário
     }
@@ -16,7 +16,7 @@ function encriptar() {
         let lista = frase.split(' ');
 
         let palavrasParaAlterar = lista.map(palavra => {
-            
+
             return palavra
                 .replace(/a/, 'ai')
                 .replace(/e/, 'enter')
@@ -60,4 +60,30 @@ function descriptografar() {
         let area_desencriptada = document.getElementById('encriptado');
         area_desencriptada.value = fraseDescriptografada.join(' ');
     }
+}
+
+function copiar() {
+    let textArea = document.getElementById('encriptado');
+
+    if (textArea) {
+        textArea.select();
+        document.execCommand('copy');
+        alert("Conteúdo copiado para área de transferência!");
+    }
+
+}
+
+function limparTela(){
+    let textEncript = document.getElementById('encriptar');
+    let textArea = document.getElementById('encriptado');
+
+    textEncript.value = '';
+    textArea.value = '';
+
+    let img = document.getElementById('img_cadeado');
+    img.classList.remove('img_encript_none');
+
+    let btn_cop = document.getElementById('btn_copia');
+    btn_cop.classList.remove('btn_cop_block');
+
 }

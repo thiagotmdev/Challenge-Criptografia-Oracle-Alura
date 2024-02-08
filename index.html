@@ -24,13 +24,14 @@
                 <div class="botoes">
                     <button class="btn_cript" onclick="encriptar()">Criptografar</button>
                     <button class="btn_decript" onclick="descriptografar()">Descriptografar</button>
+                    <button class="btn_clear" onclick="limparTela()">Limpar Tela</button>
                 </div>
             </div>
             <div class="area_texto_encripitado">
                 <textarea name="texto_encriptado" id="encriptado" cols="30" rows="15" class="text_area" pattern="[a-z]+">
                 </textarea>
                 <img src="./assets/images/padlock.jpg" id="img_cadeado" alt="imagem" class="img_encript">
-                <button id="btn_copia" class="btn_cop">Copiar</button>
+                <button id="btn_copia" class="btn_cop" onclick="copiar()">Copiar</button>
             </div>
         </section>
     </main>
