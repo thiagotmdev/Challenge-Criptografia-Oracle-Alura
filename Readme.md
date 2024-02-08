@@ -2,9 +2,9 @@
 
 ## Nesse Desafio foram utilizadas as seguintes tecnologias
 <div>
-    ![Badge HTML 5](https://img.shields.io/badge/-HTML%205-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-    ![Badge CSS 3](https://img.shields.io/badge/-CSS%203-1572B6?logo=css3&logoColor=white&style=for-the-badge)
-    ![Badge JAVASCRIPT](https://img.shields.io/badge/-JAVASCRIPT-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge)
+    <img src="https://img.shields.io/badge/-HTML%205-E34F26?logo=html5&logoColor=white&style=for-the-badge">
+    <img src="https://img.shields.io/badge/-CSS%203-1572B6?logo=css3&logoColor=white&style=for-the-badge">
+    <img src="https://img.shields.io/badge/-JAVASCRIPT-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge">
 </div>
 
 ## Screeshoot do projeto
