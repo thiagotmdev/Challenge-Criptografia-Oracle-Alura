@@ -18,9 +18,9 @@ function encriptar() {
         let palavrasParaAlterar = lista.map(palavra => {
 
             return palavra
-                .replace(/a/, 'ai')
                 .replace(/e/, 'enter')
                 .replace(/i/, 'imes')
+                .replace(/a/, 'ai')
                 .replace(/o/, 'ober')
                 .replace(/u/, 'ufat');
         });
