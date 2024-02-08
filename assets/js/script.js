@@ -1,6 +1,11 @@
 function encriptar() {
     let frase = document.getElementById('encriptar').value;
     regex = /^[a-z\s]+$/i;
+
+    if(!frase){
+        alert("Por Favor digite sua frase");
+        return false;
+    }
     
     if(!regex.test(frase)){
         alert('Por favor, digite apenas letras minúsculas e sem acentos!');
