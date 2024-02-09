@@ -12,6 +12,10 @@
 
 ## Para executar o programa 
 
+### Vocêpode acessar a página no githubpages no link: <a href="https://thiagotmdev.github.io/Challenge-Criptografia-Oracle-Alura/">Page</a>
+
+## Ou
+
 ### Clique 2 vezes no arquivo index, ele vai abrir no seu navegador, digite em letrasminúsculas sem acento no campo, esquerdo e depois clique no botão Criptografar e do lado direito ira aparecer sua mensagem criptografada.
 
 ### Para descriptografar coloque sua mensagem criptografada no campo direito e clique no botão descriptografar.
