@@ -14,7 +14,7 @@
 
 ## Para executar o programa 
 
-### Vocêpode acessar a página no githubpages no link: <a href="https://thiagotmdev.github.io/Challenge-Criptografia-Oracle-Alura/" target="_blank">Page</a>
+### Você pode acessar a página no githubpages no link: <a href="https://thiagotmdev.github.io/Challenge-Criptografia-Oracle-Alura/" target="_blank">Page</a>
 
 ## Ou
 
